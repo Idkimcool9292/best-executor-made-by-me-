@@ -18,7 +18,6 @@ local Respawn = Instance.new("TextButton")
 local Fire_Roundify_12px_4 = Instance.new("ImageLabel")
 
 
-
 ScriptExecuter.Name = "ScriptExecuter"
 ScriptExecuter.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScriptExecuter.ResetOnSpawn = false
@@ -80,7 +79,7 @@ FireSplit.BorderSizePixel = 0
 FireSplit.Position = UDim2.new(0.535424054, 0, 0.0600000024, 0)
 FireSplit.Size = UDim2.new(0, 59, 0, 19)
 FireSplit.Font = Enum.Font.SourceSans
-FireSplit.Text = ":Fire"
+FireSplit.Text = ""
 FireSplit.TextColor3 = Color3.fromRGB(152, 152, 152)
 FireSplit.TextSize = 25.000
 FireSplit.TextWrapped = true
@@ -266,14 +265,14 @@ Fire_Roundify_12px_4.SliceScale = 0.120
 
 -- Scripts:
 
-local function BMRNI_fake_script() -- TextLabel_3.LocalScript 
+local function KWMT_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	wait(2)
 	script.Parent.Text = '("'..game.Players.LocalPlayer.Name..'")'
 end
-coroutine.wrap(BMRNI_fake_script)()
-local function TQVSY_fake_script() -- Frame.MainScript 
+coroutine.wrap(KWMT_fake_script)()
+local function RPRYLR_fake_script() -- Frame.MainScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Draggable = true
@@ -300,4 +299,4 @@ local function TQVSY_fake_script() -- Frame.MainScript
 	
 	
 end
-coroutine.wrap(TQVSY_fake_script)()
+coroutine.wrap(RPRYLR_fake_script)()
